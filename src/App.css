@@ -1,0 +1,20 @@
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Pour masquer la scrollbar dans Chrome, Safari et Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Pour masquer la scrollbar dans Internet Explorer et Edge */
+body {
+  -ms-overflow-style: none; /* IE et Edge */
+}
+
+/* Pour masquer la scrollbar dans Firefox */
+body {
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,30 @@
+section {
+  margin: 2rem 0;
+}
+
+section img {
+  transition: transform 0.3s;
+}
+
+section img:hover {
+  transform: scale(1.1);
+  border: solid 1px #000000;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 1rem;
+}
+
+ul li {
+  width: 500px;
+  height: 200px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
